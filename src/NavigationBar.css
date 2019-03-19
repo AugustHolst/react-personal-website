@@ -1,0 +1,46 @@
+:root{
+    --bgColor: #313639;
+    --prmColor:  #c5eff7;
+    --sndColor:  #708090;
+    --buttonSidePadding: 3.5vmin;
+}
+
+.TopBar {
+    background-color: var(--bgColor);
+    min-height: 2vh;
+}
+
+.BotBar {
+    background-color: var(--bgColor);
+    min-height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.BotBar-nav {
+    
+}
+
+button {
+    color: white;
+    font-size: calc(10px + 1.5vmin);
+    border: none;
+    padding-right: var(--buttonSidePadding);
+    padding-left: var(--buttonSidePadding);
+    background-color: var(--bgColor);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: var(--sndColor);
+}
+.button2:hover {
+    background-color: var(--sndColor);
+}
+.button3:hover {
+    background-color: var(--sndColor);
+}

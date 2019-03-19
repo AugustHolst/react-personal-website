@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './App';
+import Manager from './Rest'
+import NavigationBar, { TopBar, BotBar} from './NavigationBar'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const elements = [<TopBar />, <Home />, <BotBar />, <Manager />] 
+ReactDOM.render(elements, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
